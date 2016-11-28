@@ -1,0 +1,40 @@
+{
+  "name": "redis-wrap",
+  "version": "1.0.0",
+  "description": "Influence Health basic wraps for redis with hooks into ih-config and ih-log.",
+  "main": "./lib/index.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medseek-engineering/redis-wrap.git"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "author": "Influence Health, Inc.",
+  "contributors": [
+    {
+      "name": "Nathan Cooke",
+      "url": "http://github.com/3choboomer"
+    },
+    {
+      "name": "David Martines",
+      "url": "https://github.com/dmartinesmedseek"
+    },
+    {
+      "name": "Dylan Hein",
+      "url": "https://github.com/dylanhein"
+    }
+  ],
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "ih-config": "~1.0.0",
+    "ih-log" : "~1.0.0",
+    "bluebird": "~3.4.5",
+    "lodash": "~4.16.6",
+    "sol-redis-pool": "~0.3.2"
+  }
+}

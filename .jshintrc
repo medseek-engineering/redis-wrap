@@ -1,0 +1,8 @@
+{
+  "node": true,
+  "latedef": "nofunc",
+  "predef": [ "describe", "it", "beforeEach", "afterEach" ],
+  "globals"      : {
+    "Promise"   : true
+  }
+}
