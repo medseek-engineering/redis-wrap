@@ -1,6 +1,6 @@
 {
   "name": "redis-wrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Influence Health basic wraps for redis with hooks into ih-config and ih-log.",
   "main": "./lib/index.js",
   "private": false,
